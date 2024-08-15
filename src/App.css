@@ -1,0 +1,95 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+  
+    background-color: white;
+    width: 41%;
+    height: unset;
+    padding: 40px;
+}
+
+#first-last{
+    display: flex;
+    column-gap: 20px;
+}
+
+#first{
+    display: flex;
+    flex-direction: column;
+    row-gap:10px;
+}
+
+#first input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+#last{
+    display: flex;
+    flex-direction: column;
+    row-gap:10px;
+}
+
+#last input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#email{
+    display: flex;
+    flex-direction: column;
+    row-gap:10px;
+
+}
+
+#email input{
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+
+#Query{
+    margin: 0;
+}
+
+#radidiv{
+    display: flex;
+    flex-direction: row;
+    column-gap:30px;
+}
+
+#General{
+    border: 1px solid rgb(126, 121, 121);
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;  
+}
+
+#Support{
+    border: 1px solid rgb(126, 121, 121);
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;  
+}
+
+#messdiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#messdiv textarea{
+    height: 80px;
+    border-radius: 5px;
+}
+
+#sub{
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(169, 82%, 27%);
+}
