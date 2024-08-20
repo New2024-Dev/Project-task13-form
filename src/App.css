@@ -93,3 +93,16 @@
     border: none;
     background-color: hsl(169, 82%, 27%);
 }
+
+@media only screen and (max-width: 600px){
+    #first-last{
+        display: flex;
+        flex-direction: column;
+    }
+    #first input{
+        width: 190px;
+    }
+    #last input{
+        width: 190px;
+    }
+}
