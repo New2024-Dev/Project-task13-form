@@ -10,9 +10,10 @@ body{
 
 #root{
   width: 100%;
-  height: 100%;
+  height: unset;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: hsl(148, 38%, 91%);
 }
+
